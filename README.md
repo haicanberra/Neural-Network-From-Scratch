@@ -40,4 +40,7 @@ Data used: Iris dataset from [UCI](https://archive.ics.uci.edu/ml/datasets/iris)
 - Installation:  
     + ```python -m venv env```  
     + ```pip install -r requirements.txt```  
-    
+  
+- Futher optimizations:  
+    + Batch, MiniBatch, Stochastic Gradient Descent
+    + Batch Normalization
