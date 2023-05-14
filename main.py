@@ -43,7 +43,7 @@ if __name__ == '__main__':
     network.add(Dense(25, 3, 'sigmoid'))
 
     # Train (1st time use save=true load=false
-    # network.train(X_train=X_train, y_train=y_train, epochs=10000, lr=0.01, save_weights=True, load_weights=True)
+    network.train(X_train=X_train, y_train=y_train, epochs=1000, lr=0.01, save_weights=True, load_weights=True)
     
     # Get accuracy
     predict = np.argmax(network.predict(X_test[:10]), axis=1)
