@@ -1,5 +1,7 @@
 # Neural Network From Scratch
-Coding a neural network from scratch using Numpy only   
+Coding a neural network from scratch using Numpy only  
+  
+With the ability to save and load weights  
    
 Pandas and Scikit-learn for data preprocessing  
     
