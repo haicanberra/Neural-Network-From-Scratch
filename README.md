@@ -17,9 +17,9 @@ Data used: Iris dataset from [UCI](https://archive.ics.uci.edu/ml/datasets/iris)
     $$E = \frac{1}{n}\Sigma (\hat{y_i}-y_i)^2$$  
     $$\frac{\partial E}{\partial X} = \frac{2}{n}\(Y-\hat{Y})$$  
   
-- Note: 
-    + Delete weight files if changing network architecture  
-    + One hot encoded Y is assumed  
+- Note for running the code:  
+    + Delete weight files in weights folder if changing network architecture (in main.py)  
+    + One hot encoded Y is assumed: [[y1][y2]...[yn]]    
     + Pretrained with average error of 0.000001:  
     ```
     $ python main.py 
