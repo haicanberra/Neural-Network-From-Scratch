@@ -1,4 +1,4 @@
-# Neural Network From Scratch
+# NumPy Neural Network
 Coding a neural network from scratch using Numpy only  
   
 With the ability to save and load weights  
