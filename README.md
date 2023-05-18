@@ -1,26 +1,27 @@
 # NumPy Neural Network
-Coding a neural network from scratch using Numpy only  
-  
-With the ability to save and load weights  
-   
-Pandas and Scikit-learn for data preprocessing  
-    
-Data used: Iris dataset from [UCI](https://archive.ics.uci.edu/ml/datasets/iris)  
-  
+## About
+A neural network written in Python from scratch using NumPy only, able to save and load weights.
+
+## Packages
+NumPy, Pandas, Scikit-learn  
+
+## References
+Iris dataset from [UCI](https://archive.ics.uci.edu/ml/datasets/iris)  
+
+## Mathematics
 - Backward propagation:  
     $$\frac{\partial E}{\partial X} = \frac{\partial E}{\partial Y} W^T$$  
     $$\frac{\partial E}{\partial W} = X^T\frac{\partial E}{\partial Y}$$  
     $$\frac{\partial E}{\partial B} = \frac{\partial E}{\partial Y}$$  
-    $$\frac{\partial E}{\partial X} = \frac{\partial E}{\partial Y} *g'(X)$$  
-  
+    $$\frac{\partial E}{\partial X} = \frac{\partial E}{\partial Y} *g'(X)$$ 
 - Loss function:  
     $$E = \frac{1}{n}\Sigma (\hat{y_i}-y_i)^2$$  
-    $$\frac{\partial E}{\partial X} = \frac{2}{n}\(Y-\hat{Y})$$  
+    $$\frac{\partial E}{\partial X} = \frac{2}{n}(Y-\hat{Y})$$  
   
-- Note for running the code:  
-    + Delete weight files in weights folder if changing network architecture (in main.py)  
-    + One hot encoded Y is assumed: [[y1][y2]...[yn]]    
-    + Pretrained with average error of 0.000001:  
+## Notes 
+- Delete weight files in weights folder if changing network architecture (in main.py).
+- One hot encoded Y is assumed: [[y1][y2]...[yn]] for n samples.
+- Pretrained with Mean Squared Error of $10^{-6}$:  
     ```
     $ python main.py 
     epoch 100/1000   error=0.000002
@@ -39,10 +40,12 @@ Data used: Iris dataset from [UCI](https://archive.ics.uci.edu/ml/datasets/iris)
     (env)
     ```  
   
-- Installation:  
-    + ```python -m venv env```  
-    + ```pip install -r requirements.txt```  
+## Installation:  
+```
+python -m venv env
+pip install -r requirements.txt
+```  
   
-- Futher optimizations:  
-    + Batch, MiniBatch, Stochastic Gradient Descent
-    + Batch Normalization
+## Futher Optimizations:  
+- Batch, MiniBatch, Stochastic Gradient Descent.
+- Batch Normalization.
