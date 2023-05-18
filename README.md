@@ -43,6 +43,7 @@ Iris dataset from [UCI](https://archive.ics.uci.edu/ml/datasets/iris)
 ## Installation:  
 ```
 python -m venv env
+source env/Scripts/activate
 pip install -r requirements.txt
 ```  
   
