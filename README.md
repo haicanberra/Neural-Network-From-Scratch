@@ -1,6 +1,6 @@
 # NumPy Neural Network
 ## About
-A neural network written in Python from scratch using NumPy only, able to save and load weights.
+A neural network written in Python from scratch using NumPy module only, able to save and load weights.
 
 ## Packages
 NumPy, Pandas, Scikit-learn  
