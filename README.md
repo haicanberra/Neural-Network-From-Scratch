@@ -6,7 +6,9 @@ A neural network written in Python from scratch, capable of saving and loading w
 NumPy, Pandas, Scikit-learn  
 
 ## References
-Iris dataset from [UCI](https://archive.ics.uci.edu/ml/datasets/iris)  
+Iris Dataset by [UCI](https://archive.ics.uci.edu/ml/datasets/iris)  
+Neural Network by [Wikipedia](https://en.wikipedia.org/wiki/Neural_network)  
+Backpropagation by [Wikipedia](https://en.wikipedia.org/wiki/Backpropagation)  
 
 ## Mathematics
 - Backward propagation:  
