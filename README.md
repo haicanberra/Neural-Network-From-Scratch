@@ -12,7 +12,7 @@
 - Neural Network by [Wikipedia](https://en.wikipedia.org/wiki/Neural_network).  
 - Backpropagation by [Wikipedia](https://en.wikipedia.org/wiki/Backpropagation).  
 
-## Mathematics
+## Specifications
 - Backward propagation:  
     $$\frac{\partial E}{\partial X} = \frac{\partial E}{\partial Y} W^T$$  
     $$\frac{\partial E}{\partial W} = X^T\frac{\partial E}{\partial Y}$$  
@@ -22,8 +22,19 @@
     $$E = \frac{1}{n}\Sigma (\hat{y_i}-y_i)^2$$  
     $$\frac{\partial E}{\partial X} = \frac{2}{n}(Y-\hat{Y})$$  
   
-## Notes 
-- Delete weight files in weights folder if changing network architecture (in main.py).
+
+## Installation:  
+```
+python -m venv env
+source env/Scripts/activate
+pip install -r requirements.txt
+```  
+## Usage
+- Edit network architecture in ```main.py```.
+- Launch ```main.py```.
+  
+## Notes
+- Delete weight files in weights folder if changing network architecture.
 - One hot encoded Y is assumed: [[y1][y2]...[yn]] for n samples.
 - Pretrained with Mean Squared Error of $10^{-6}$:  
     ```
@@ -43,15 +54,6 @@
     Accuracy:    100.0 %
     (env)
     ```  
-  
-## Installation:  
-```
-python -m venv env
-source env/Scripts/activate
-pip install -r requirements.txt
-```  
-  
-## Futher Optimizations:  
-- Batch, MiniBatch, Stochastic Gradient Descent.
-- Batch Normalization.
-- Adam Optimizer.
++ Batch, MiniBatch, Stochastic Gradient Descent.
++ Batch Normalization.
++ Adam Optimizer.
