@@ -23,7 +23,7 @@
     $$\frac{\partial E}{\partial X} = \frac{2}{n}(Y-\hat{Y})$$  
   
 
-## Installation:  
+## Installation
 ```
 python -m venv env
 source env/Scripts/activate
