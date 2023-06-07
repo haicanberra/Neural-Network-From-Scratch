@@ -52,3 +52,4 @@ pip install -r requirements.txt
 ## Futher Optimizations:  
 - Batch, MiniBatch, Stochastic Gradient Descent.
 - Batch Normalization.
+- Adam Optimizer.
