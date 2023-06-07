@@ -1,14 +1,16 @@
 # NumPy Neural Network
 ## About
-A neural network written in Python from scratch, capable of saving and loading weights.  
+- A neural network written in Python from scratch, capable of saving and loading weights.  
 
 ## Packages
-NumPy, Pandas, Scikit-learn.  
+- NumPy.   
+- Pandas.
+- Scikit-learn.  
 
 ## References
-Iris Dataset by [UCI](https://archive.ics.uci.edu/ml/datasets/iris).  
-Neural Network by [Wikipedia](https://en.wikipedia.org/wiki/Neural_network).  
-Backpropagation by [Wikipedia](https://en.wikipedia.org/wiki/Backpropagation).  
+- Iris Dataset by [UCI](https://archive.ics.uci.edu/ml/datasets/iris).  
+- Neural Network by [Wikipedia](https://en.wikipedia.org/wiki/Neural_network).  
+- Backpropagation by [Wikipedia](https://en.wikipedia.org/wiki/Backpropagation).  
 
 ## Mathematics
 - Backward propagation:  
