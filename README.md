@@ -54,6 +54,4 @@ pip install -r requirements.txt
     Accuracy:    100.0 %
     (env)
     ```  
-+ Batch, MiniBatch, Stochastic Gradient Descent.
-+ Batch Normalization.
-+ Adam Optimizer.
+- <ins>Add</ins>: Batch, MiniBatch, Stochastic Gradient Descent, Batch Normalization, Adam Optimizer.
