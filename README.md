@@ -29,7 +29,7 @@ python -m venv env
 source env/Scripts/activate
 pip install -r requirements.txt
 ```  
-## Usage
+## Usages
 - Edit network architecture in ```main.py```.
 - Launch ```main.py```.
   
