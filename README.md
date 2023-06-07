@@ -13,14 +13,21 @@
 - Backpropagation by [Wikipedia](https://en.wikipedia.org/wiki/Backpropagation).  
 
 ## Specifications
-- Backward propagation:  
-    $$\frac{\partial E}{\partial X} = \frac{\partial E}{\partial Y} W^T$$  
-    $$\frac{\partial E}{\partial W} = X^T\frac{\partial E}{\partial Y}$$  
-    $$\frac{\partial E}{\partial B} = \frac{\partial E}{\partial Y}$$  
-    $$\frac{\partial E}{\partial X} = \frac{\partial E}{\partial Y} *g'(X)$$ 
-- Loss function:  
-    $$E = \frac{1}{n}\Sigma (\hat{y_i}-y_i)^2$$  
-    $$\frac{\partial E}{\partial X} = \frac{2}{n}(Y-\hat{Y})$$  
+### <ins>Backward propagation</ins>:  
+- Calculates the gradient of the loss function E with respect to the input X. Transpose because the dimensions need to match for the matrix multiplication.  
+    $$\frac{\partial E}{\partial X} = \frac{\partial E}{\partial Y} W^T$$   
+- Calculates the gradient of the loss function E with respect to the weight matrix W. Used to update the weights based on degree of contribution to the loss.   
+    $$\frac{\partial E}{\partial W} = X^T\frac{\partial E}{\partial Y}$$   
+- Calculates the gradient of the loss function E with respect to the bias vector B. Used to update the biases based on degree of contribution to the loss.  
+    $$\frac{\partial E}{\partial B} = \frac{\partial E}{\partial Y}$$   
+- Calculates the gradient of the loss function E with respect to the input X, taking into account the activation function's derivative g'(X). Used to propagate the gradients backward through the activation function.  
+    $$\frac{\partial E}{\partial X} = \frac{\partial E}{\partial Y} *g'(X)$$   
+    
+### <ins>Loss function</ins>:   
+- The mean squared error loss function. n is the number of examples, Y_hat is the predicted values, Y is the true values.   
+    $$E = \frac{1}{n}\Sigma (\hat{y_i}-y_i)^2$$   
+- The mean squared error loss function, n is the number of examples, Y_hat is the predicted values, Y is the true values.   
+    $$\frac{\partial E}{\partial X} = \frac{2}{n}(Y-\hat{Y})$$   
   
 
 ## Installation
