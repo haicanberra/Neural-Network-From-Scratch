@@ -14,6 +14,7 @@
 
 ## Contents
 * [About](#about)
+* [Packages](#packages)
 * [References](#references)
 * [Specifications](#specifications)
 * [Installation](#installation)
@@ -23,6 +24,12 @@
 <a name="about"></a>
 ## About
 - A neural network written in Python from scratch, capable of saving and loading weights.  
+
+<a name="packages"></a>
+## Packages
+- NumPy.   
+- Pandas.
+- Scikit-learn.  
 
 <a name="references"></a>
 ## References
@@ -51,7 +58,7 @@
 <a name="installation"></a>
 ## Installation
 ```
-python -m venv env
+python3 -m venv env
 source env/Scripts/activate
 pip install -r requirements.txt
 ```  
