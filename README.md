@@ -1,5 +1,5 @@
 # NumPy Neural Network
-![NumPy Neural Network](./thumbnail.png)
+![NumPy Neural Network](./thumbnail.png | width=200 height=200)
 ## About
 - A neural network written in Python from scratch, capable of saving and loading weights.  
 
