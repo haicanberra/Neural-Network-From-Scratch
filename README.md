@@ -1,6 +1,6 @@
 # NumPy Neural Network
-## About
 ![NumPy Neural Network](./thumbnail.png)
+## About
 - A neural network written in Python from scratch, capable of saving and loading weights.  
 
 ## Packages
