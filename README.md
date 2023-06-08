@@ -1,22 +1,36 @@
-# NumPy Neural Network
-<div style="text-align:center">
-<img src="./thumbnail.png" width="300">
-</div>  
+
+<div align="center">
   
+<img src="./thumbnail.png" width="300">
+  
+# NumPy Neural Network
+  
+<img src="https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue">  
+<img src="https://img.shields.io/badge/Numpy-777BB4?style=for-the-badge&logo=numpy&logoColor=white">  
+<img src="https://img.shields.io/badge/Pandas-2C2D72?style=for-the-badge&logo=pandas&logoColor=white">
+<img src="https://img.shields.io/badge/scikit_learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white">
+  
+</div>  
+
+## Contents
+* [About](#about)
+* [References](#references)
+* [Specifications](#specifications)
+* [Installation](#installation)
+* [Usages](#usages)
+* [Notes](#notes)
+
+<a name="about"></a>
 ## About
 - A neural network written in Python from scratch, capable of saving and loading weights.  
 
-## Packages
-
-- NumPy.   
-- Pandas.
-- Scikit-learn.  
-
+<a name="references"></a>
 ## References
 - Iris Dataset by [UCI](https://archive.ics.uci.edu/ml/datasets/iris).  
 - Neural Network by [Wikipedia](https://en.wikipedia.org/wiki/Neural_network).  
 - Backpropagation by [Wikipedia](https://en.wikipedia.org/wiki/Backpropagation).  
 
+<a name="specifications"></a>
 ## Specifications
 ### <ins>Backward propagation</ins>:  
 - Calculates the gradient of the loss function E with respect to the input X. Transpose because the dimensions need to match for the matrix multiplication.  
@@ -34,17 +48,19 @@
 - The mean squared error loss function, n is the number of examples, Y_hat is the predicted values, Y is the true values.   
     $$\frac{\partial E}{\partial X} = \frac{2}{n}(Y-\hat{Y})$$   
   
-
+<a name="installation"></a>
 ## Installation
 ```
 python -m venv env
 source env/Scripts/activate
 pip install -r requirements.txt
 ```  
+<a name="usages"></a>
 ## Usages
 - Edit network architecture in ```main.py```.
 - Launch ```main.py```.
-  
+
+<a name="notes"></a>
 ## Notes
 - Delete weight files in weights folder if changing network architecture.
 - One hot encoded Y is assumed: [[y1][y2]...[yn]] for n samples.
