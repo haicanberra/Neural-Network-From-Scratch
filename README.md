@@ -1,5 +1,5 @@
 # NumPy Neural Network
-<img src="./thumbnail.png" width="300">
+<img src="./thumbnail.png" width="300">  
 ## About
 - A neural network written in Python from scratch, capable of saving and loading weights.  
 
