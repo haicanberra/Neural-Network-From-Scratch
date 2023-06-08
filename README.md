@@ -1,10 +1,13 @@
 # NumPy Neural Network
-<img src="./thumbnail.png" width="300">  
+<div style="text-align:center">
+<img src="./thumbnail.png" width="300">
+</div>  
   
 ## About
 - A neural network written in Python from scratch, capable of saving and loading weights.  
 
 ## Packages
+
 - NumPy.   
 - Pandas.
 - Scikit-learn.  
