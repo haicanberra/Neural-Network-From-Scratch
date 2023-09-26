@@ -61,7 +61,7 @@ Custom Neural Network - Iris Classification in Python
 ## Installation
 ```
 python3 -m venv env
-source env/Scripts/activate
+source env/bin/activate
 pip install -r requirements.txt
 ```  
 <a name="usages"></a>
