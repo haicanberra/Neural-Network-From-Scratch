@@ -23,9 +23,9 @@
 
 <a name="about"></a>
 ## About
-Custom Neural Network - Iris Classification in Python  
-- Developed a custom neural network in Python, implementing activation functions (ReLU, sigmoid, tanh) and MSE loss.  
-- Achieved an impressive mean squared error of 0.000001 when trained on the Iris dataset.  
+Numpy Neural Network - Neural Network from scratch	
+- Implemented a scalable neural network model entirely from scratch in Python with feedforward and backpropagation.
+- Optimized to achieve approximately 98% test accuracy on Iris and MNIST dataset within 10 seconds of training on CPU.
 
 <a name="packages"></a>
 ## Packages
