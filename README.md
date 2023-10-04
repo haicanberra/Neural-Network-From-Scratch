@@ -24,8 +24,10 @@
 <a name="about"></a>
 ## About
 Numpy Neural Network - Neural Network from scratch	
-- Implemented a scalable neural network model entirely from scratch in Python with feedforward and backpropagation.
-- Optimized to achieve approximately 98% test accuracy on Iris and MNIST dataset within 10 seconds of training on CPU.
+- Designed and developed a scalable neural network model entirely from scratch with NumPy.
+- Integrated backpropagation and gradient descent, enabling the neural network model to learn and improve its predictions.
+- Optimized hyperparameters to achieve approximately 98% test accuracy on Iris dataset within 10 seconds of training on CPU.
+
 
 <a name="packages"></a>
 ## Packages
