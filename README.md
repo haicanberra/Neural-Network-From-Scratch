@@ -1,25 +1,20 @@
 
 <div align="center">
   
-<img src="./thumbnail.png" width="300">
+<img src="./assets/thumbnail.png" width="300">
   
 # NumPy Neural Network
   
-![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
-![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white)
-![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white)
-![scikit-learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white)
-  
 </div>  
+---
 
 ## Contents
 * [About](#about)
-* [Packages](#packages)
-* [References](#references)
 * [Specifications](#specifications)
-* [Installation](#installation)
 * [Usages](#usages)
 * [Notes](#notes)
+* [References](#references)
+---
 
 <a name="about"></a>
 ## About
@@ -27,19 +22,9 @@ Numpy Neural Network - Neural Network from scratch
 - Designed and developed a scalable neural network model entirely from scratch with NumPy.
 - Integrated backpropagation and gradient descent, enabling the neural network model to learn and improve its predictions.
 - Optimized hyperparameters to achieve approximately 98% test accuracy on Iris dataset within 10 seconds of training on CPU.
+---
 
 
-<a name="packages"></a>
-## Packages
-- NumPy.   
-- Pandas.
-- Scikit-learn.  
-
-<a name="references"></a>
-## References
-- Iris Dataset by [UCI](https://archive.ics.uci.edu/ml/datasets/iris).  
-- Neural Network by [Wikipedia](https://en.wikipedia.org/wiki/Neural_network).  
-- Backpropagation by [Wikipedia](https://en.wikipedia.org/wiki/Backpropagation).  
 
 <a name="specifications"></a>
 ## Specifications
@@ -52,24 +37,21 @@ Numpy Neural Network - Neural Network from scratch
     $$\frac{\partial E}{\partial B} = \frac{\partial E}{\partial Y}$$   
 - Calculates the gradient of the loss function E with respect to the input X, taking into account the activation function's derivative g'(X). Used to propagate the gradients backward through the activation function.  
     $$\frac{\partial E}{\partial X} = \frac{\partial E}{\partial Y} *g'(X)$$   
+---
     
 ### <ins>Loss function</ins>:   
 - The mean squared error loss function. n is the number of examples, Y_hat is the predicted values, Y is the true values.   
     $$E = \frac{1}{n}\Sigma (\hat{y_i}-y_i)^2$$   
 - The mean squared error loss function, n is the number of examples, Y_hat is the predicted values, Y is the true values.   
     $$\frac{\partial E}{\partial X} = \frac{2}{n}(Y-\hat{Y})$$   
-  
-<a name="installation"></a>
-## Installation
-```
-python3 -m venv venv
-source env/bin/activate
-pip install -r requirements.txt
-```  
+---
+
 <a name="usages"></a>
 ## Usages
+- Install dependencies in ```requirements.txt```
 - Edit network architecture in ```main.py```.
 - Launch ```main.py```.
+---
 
 <a name="notes"></a>
 ## Notes
@@ -94,3 +76,10 @@ pip install -r requirements.txt
     (env)
     ```  
 - <ins>Add</ins>: Batch, MiniBatch, Stochastic Gradient Descent, Batch Normalization, Adam Optimizer.
+---
+
+<a name="references"></a>
+## References
+- Iris Dataset by [UCI](https://archive.ics.uci.edu/ml/datasets/iris).  
+- Neural Network by [Wikipedia](https://en.wikipedia.org/wiki/Neural_network).  
+- Backpropagation by [Wikipedia](https://en.wikipedia.org/wiki/Backpropagation).  
