@@ -6,6 +6,7 @@
 # NumPy Neural Network
   
 </div>  
+
 ---
 
 ## Contents
